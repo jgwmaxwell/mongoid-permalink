@@ -14,4 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "mongoid-permalink"
   gem.require_paths = ["lib"]
   gem.version       = Mongoid::Permalink::VERSION
+
+  gem.dependency = 'babosa'
 end
